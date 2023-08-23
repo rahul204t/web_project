@@ -1,0 +1,124 @@
+@media(max-width:500px){
+
+    .header{
+        grid-template-columns: 1fr;
+    }
+    .textinheader2{
+        padding-left: 350px;
+    }
+    .svjnav1{
+        display: none;
+    }
+    .svjtop{
+        grid-template-columns: 2fr 1fr;
+    }
+    .logo1{
+         transform: scale(1) translate(-100px,0px);
+    }
+    .hotdealimg{
+        background-position: center;
+    }
+    .hotdeal{
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .bestsellerinfo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .ceos p:last-child{
+        /* padding: 0px; */
+        font-size: 30px;
+    }
+    .ceos p:last-child{
+        /* padding: 0px; */
+        font-size: 20px;
+    }
+
+
+    .offerweek{
+        /* border: 2px solid red; */
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr; */
+       padding: 20px;
+        display: block;
+    }
+    .offerweekimg2{
+        /* grid-template-rows: 1fr 1fr; */
+        /* border: 2px solid blue; */
+        /* padding: 20px; */
+        margin-top: 20px;
+        display: block;
+
+    }
+    .offerweekimginA{
+        margin-top: 20px;
+        
+    }
+    .offerweekimginB{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .offerweekimgin1{
+        height: 580px; 
+        display: block;
+    }
+    .offerweekimgin2{
+        margin-top: 60px;
+    }
+    .cakes{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .bakerback{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 50px;
+    }
+
+    .blogandnews{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 40px;
+    }
+    .logoimg{
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: repeat(6,1fr); */
+    }
+    .logof4{
+        display: none;
+    }
+    .logof3{
+        display: none;
+    }
+    .logof5{
+        display: none;
+    }
+    .logof6{
+        display: none;
+    }
+    .aboutus{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 40px;
+    }
+    .aboutimput input{
+        width: 210px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 40px;
+    }
+    .meet{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 130px;
+    }
+    .meet p:last-child{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+}

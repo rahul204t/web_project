@@ -1,0 +1,106 @@
+@media(max-width:500px) {
+
+    .backimg {
+        /* background-size: 100% 100%; */
+        background-position: center;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+    .servicesinfo{
+        /* border: 2px solid brown; */
+        display: block;
+        justify-content: space-around;
+        /* margin-bottom: 20px; */
+    } 
+    .serinfo{
+        /* border: 2px solid pink; */
+        padding: 50px;
+        margin-bottom: 20px;
+        width: 380px ;
+    }
+    .shefinfo{
+        display: block;
+    }
+    .shefimg{
+        width: 100%;
+    }
+    .sheftext{
+        width: 100%;
+    }
+    .offerinfo1{
+        width: 100%;
+    }
+    .itemimg1{
+        width: 42%;
+    }
+    .servicesheader::before{
+        top: 30px;
+        left: 120px;
+    
+    }
+    .servicesheader::after{
+        top: 29px;
+        left: 170px;
+    
+    }
+    .offerheader::before{
+        top: 100px;
+        left: 140px;
+    
+    }
+    .offerheader::after{
+        top: 99px;
+        left: 190px;
+    }
+    .staffinfo{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .staffphoto{
+        height: 300px;
+        width: 300px;
+    }
+    .stafficon{
+        height: 300px;
+        width: 300px;
+    }
+    .staffheader::before {
+        top: 60px;
+        left: 140px;
+    
+    }
+    
+    .staffheader::after {
+        top: 59px;
+        left: 195px;
+    
+    }
+    .owntext{
+        margin: 0;
+    }
+    .ownname{
+        margin-top: 50px;
+    }
+    .ownname::before{
+        left: 160px;
+    }
+    .blogpostwithinfo{
+        width: auto;
+        margin-top: 20px;
+    }
+    .cphotos{
+        /* width: 50%; */
+        overflow: hidden;
+    }
+}
